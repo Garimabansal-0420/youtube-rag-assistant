@@ -43,14 +43,27 @@ This project implements a **RAG (Retrieval-Augmented Generation)** pipeline. It 
    ```bash
    git clone https://github.com/yourusername/youtube-rag-assistant.git
    cd youtube-rag-assistant
-   
+2.Create a virtual environment and install dependencies:
+
+bash
 python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
+Activate the environment:
+
+Windows: venv\Scripts\activate
+
+Mac/Linux: source venv/bin/activate
+
+Then install the packages:
+
+bash
 pip install -r requirements.txt
-# Set up Environment Variables:
+
+3.Set up Environment Variables:
+Create a .env file in the root directory and add your Groq API key:
+
+text
 GROQ_API_KEY=your_groq_api_key_here
-# Run the application:
+4.Run the application:
+
+bash
 streamlit run app.py
