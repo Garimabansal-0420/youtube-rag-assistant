@@ -45,13 +45,12 @@ This project implements a **RAG (Retrieval-Augmented Generation)** pipeline. It 
    cd youtube-rag-assistant
    
 python -m venv venv
-**On Windows:**
+# On Windows:
 venv\Scripts\activate
-**On Mac/Linux:**
+# On Mac/Linux:
 source venv/bin/activate
 pip install -r requirements.txt
-
-
+# Set up Environment Variables:
 GROQ_API_KEY=your_groq_api_key_here
-
+# Run the application:
 streamlit run app.py
